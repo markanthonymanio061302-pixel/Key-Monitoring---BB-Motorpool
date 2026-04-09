@@ -659,7 +659,7 @@ label {
       <div class="login-err" id="login-err"></div>
       <button class="login-btn" onclick="doLogin()">Unlock System</button>
       <div class="login-hint">
-        Default Admin PIN: <strong>1234</strong> &nbsp;·&nbsp; Default Staff PIN: <strong>0000</strong><br>
+        Default Admin PIN: <strong>0613</strong> &nbsp;·&nbsp; Default Staff PIN: <strong>6969</strong><br>
         <span style="font-size:10px">Change PINs via Admin → Settings after login</span>
       </div>
     </div>
@@ -1097,7 +1097,7 @@ label {
    CONFIG / AUTH
 ════════════════════════════════════════════ */
 const SC = 'kms2_cfg';
-let cfg = { adminPin:'1234', staffPin:'0000', overdueHrs:8 };
+let cfg = { adminPin:'0613', staffPin:'6969', overdueHrs:48 };
 try { const c=JSON.parse(localStorage.getItem(SC)); if(c) cfg={...cfg,...c}; } catch{}
 function saveCfg() { localStorage.setItem(SC, JSON.stringify(cfg)); }
 
